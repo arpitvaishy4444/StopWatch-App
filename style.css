@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+}
+.container{
+    background-image: linear-gradient(to bottom,rgb(97, 32, 32),black);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.container>div{
+
+    background-color: black;
+    border: 15px solid white;
+    width: 40vw;
+    height: 40vw;
+    border-radius: 100%;
+    margin: auto;
+    text-align: center;
+    filter: drop-shadow(0 0 5px white);
+    transition: all 1s;
+}
+.container>div:hover{
+    transform: scale(1.1);
+}
+h1{
+    color: white;
+    font-size: 10vh;
+    margin-top: 15vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    color: white;
+    font-size: 10vh;
+    margin-top: 5vh;
+    font-weight: lighter;
+
+}
+#btn1{
+    width: 10vmax;
+    height: 3vmax;
+    margin-top: 3vmax;
+    border-radius: 20px;
+    transition: all 1s;
+    background-color: rgba(255, 255, 255, 0.934);
+    cursor: pointer;
+}
+#btn1:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+#btn2{
+    width: 10vmax;
+    height: 3vmax;
+   
+    border-radius: 20px;
+    transition: all 1s;
+    background-color: rgba(255, 255, 255, 0.934);
+    cursor:pointer;
+}
+#btn2:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+#btn3{
+    width: 7vmax;
+    height: 2.4vmax;
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.934);
+    cursor:pointer;
+    margin-top: 2vmax;
+}
+#btn3:hover{
+   border:2px solid white
+
+}
